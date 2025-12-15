@@ -1,4 +1,5 @@
 # batchedrand
+[![CI](https://github.com/lemire/batchedrand/actions/workflows/ci.yml/badge.svg)](https://github.com/lemire/batchedrand/actions/workflows/ci.yml)
 
 This package provides a batched random shuffle implementation for Go. It implements the batched algorithm
 from Brackett-Rozinsky and Lemire (2025)---a mathematically correct shuffling. It should be between
