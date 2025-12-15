@@ -59,7 +59,7 @@ If you have python and uv, you can run...
 uv run --with=pandas --with=matplotlib --with=tabulate bench.p
 ```
 
-Result on an M4 processor:
+Results on an M4 processor:
 
 
 | Benchmark     |   Size |   Batched (ns/item) |   Standard (ns/item) |   speedup |
@@ -69,4 +69,4 @@ Result on an M4 processor:
 | ChaChaShuffle | 500000 |                 2.6 |                  5.1 |       1.9 |
 | PCGShuffle    |     30 |                 1.5 |                  3.9 |       2.6 |
 | PCGShuffle    |    100 |                 1.5 |                  4.2 |       2.8 |
-| PCGShuffle    | 500000 |                 1.9 |                  3.8 |       2   |
+| PCGShuffle    | 500000 |                 1.9 |                  3.8 |       2.0 |
